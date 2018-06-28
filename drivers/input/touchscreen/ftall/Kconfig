@@ -1,0 +1,6 @@
+config TOUCHSCREEN_FT5x_FT6x_SUPPORT
+		tristate "ft5x ft6x touchscreen panel support "
+		depends on I2C2_RK29 || I2C2_RK30
+        default n
+
+

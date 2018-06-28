@@ -1,0 +1,9 @@
+#
+# actel fpga jtag configuration
+#
+
+config ACTEL_DIRECTC
+	tristate "Actel FPGA Jtag Interface"
+	help
+	  Provides actel fpga jtag functionality for firmware update.
+

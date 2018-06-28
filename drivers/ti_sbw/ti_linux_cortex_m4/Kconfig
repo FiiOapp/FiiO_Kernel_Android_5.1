@@ -1,0 +1,8 @@
+#
+# ti sbw jtag configuration
+#
+config TI_SBW_JTAG_M4
+	tristate "Ti SBW Jtag cortex-M4 Interface"
+    default n
+	help
+	  Provides ti sbw jtag functionality for firmware update.

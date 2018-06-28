@@ -1,0 +1,9 @@
+#
+# ti sbw jtag configuration
+#
+
+config TI_SBW_JTAG_COMMON
+	tristate "Ti SBW Jtag linux common Interface"
+    default n
+	help
+	  Provides ti sbw jtag common functionality for firmware update.

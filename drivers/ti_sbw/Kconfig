@@ -1,0 +1,7 @@
+#
+# ti sbw jtag configuration
+#
+menu "Ti SBW interface"
+source "drivers/ti_sbw/ti_linux_cortex_m4/Kconfig"
+source "drivers/ti_sbw/ti_linux_common/Kconfig"
+endmenu
